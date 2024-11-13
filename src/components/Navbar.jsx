@@ -9,10 +9,10 @@ function App() {
      <a href="">
       <li>Agendar</li>
      </a>
-     <a href="">
+     <a href="#servicos">
       <li>Serviços</li>
      </a>
-     <a href="">
+     <a href="#contato">
       <li>Contato</li>
      </a>
     </ul>
