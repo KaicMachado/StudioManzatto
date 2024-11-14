@@ -3,17 +3,17 @@ import { useEffect } from "react";
 import { Loader } from "@googlemaps/js-api-loader";
 
 const coordenadasLoja = { lat: -20.655413389189686, lng: -40.49058233368768 };
+const apiKey = import.meta.env.VITE_API_KEY;
+
 const MapaLocalizacao = () => {
- const width = document.body.offsetWidth;
  useEffect(() => {
   const loader = new Loader({
-   apiKey: "AIzaSyA-vpnEZ4v_6ezmFW1PL0rH60p9Eh0-GxU", // Substitua pela sua chave de API
+   apiKey: apiKey, // Substitua pela sua chave de API
    version: "weekly",
    libraries: ["marker"],
   });
 
   const initializeMap = async () => {
-   // Carrega as bibliotecas de forma assíncrona
    await loader.importLibrary("maps");
    await loader.importLibrary("marker");
 
@@ -24,8 +24,7 @@ const MapaLocalizacao = () => {
     mapId: "DEMO_MAP_ID",
    });
 
-   // eslint-disable-next-line no-unused-vars
-   const marker = new google.maps.marker.AdvancedMarkerElement({
+   new google.maps.marker.AdvancedMarkerElement({
     map: map,
     position: coordenadasLoja,
     title: "Studio Manzatto",
@@ -33,7 +32,9 @@ const MapaLocalizacao = () => {
   };
 
   initializeMap();
- }, []);
+ }, []); // A dependência vazia garante que isso seja executado apenas uma vez
+
+ const width = document.body.offsetWidth;
 
  return (
   <div
