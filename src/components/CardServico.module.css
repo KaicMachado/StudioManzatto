@@ -18,17 +18,21 @@
 }
 
 .btn {
- display: block;
+ display: flex;
+ max-width: min-content;
  font-family: "Inter";
  font-weight: 400;
  font-size: 1.5rem;
- color: #fff;
  background-color: #db8dc4;
  border-radius: 5px;
  border: none;
  margin: 2rem auto;
  padding: 10px 40px;
  transition: 0.3s;
+}
+
+.btn a {
+ color: #fff;
 }
 
 .btn:hover {

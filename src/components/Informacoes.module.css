@@ -1,0 +1,72 @@
+.container {
+ border-top: 1px solid #dfceda;
+ border-bottom: 1px solid #dfceda;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ align-items: center;
+ padding: 2rem 1rem;
+ gap: 1rem;
+}
+
+.infos {
+ display: grid;
+ grid-template-columns: 40% 60%;
+ justify-content: center;
+ gap: 1rem;
+}
+
+.infoContent {
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+
+.infoContent span {
+ font-size: 0.75rem;
+}
+
+.title {
+ font-family: "Inria Serif";
+ font-size: 1.25rem;
+}
+
+.redesLista {
+ display: flex;
+ justify-content: center;
+ gap: 2rem;
+}
+
+.loc {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+ text-align: center;
+}
+
+@media (min-width: 550px) {
+ .container {
+  display: flex;
+  flex-direction: row;
+ }
+
+ .title {
+  font-size: 2rem;
+ }
+ .infoContent span {
+  font-size: 0.975rem;
+  opacity: 85%;
+ }
+
+ .infos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+
+ .logo {
+  width: 30px;
+  height: 30px;
+ }
+}
