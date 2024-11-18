@@ -23,7 +23,7 @@ const Informacoes = () => {
     </div>
     <div className={styles.infoContent}>
      <p className={styles.title}>Endereço</p>
-     <span>Avenida Beira Mar, Praia do Morro</span>
+     <span>Av Beira Mar, 2158, Loja 4 - Praia do Morro</span>
     </div>
    </div>
    <div className={styles.loc}>
