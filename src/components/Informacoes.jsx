@@ -4,7 +4,7 @@ import InstaLogo from "../assets/insta-logo.jpg";
 import Mapa from "./Mapa";
 const Informacoes = () => {
  return (
-  <section className={styles.container}>
+  <section id="contato" className={styles.container}>
    <div className={styles.infos}>
     <div className={styles.infoContent}>
      <p className={styles.title}>Redes Sociais</p>

@@ -5,7 +5,7 @@ import PlasticaImg from "../assets/plastica.png";
 import styles from "./CardServico.module.css";
 const Servicos = () => {
  return (
-  <section>
+  <section id="servicos">
    <ul className={styles.lista}>
     <CardServico title="Manicure" img={ManicureImg} />
     <CardServico title="Pedicure" img={PedicureImg} />

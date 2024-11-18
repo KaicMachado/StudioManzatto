@@ -6,7 +6,10 @@ function App() {
    <img className={styles.logo} src={Logo} alt="Logo da Studio Manzatto" />
    <div>
     <ul className={styles.listNav}>
-     <a href="">
+     <a
+      target="_blank"
+      href="https://api.whatsapp.com/send?phone=+5516992332187&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+de+unha+com+a+Andreia"
+     >
       <li>Agendar</li>
      </a>
      <a href="#servicos">
