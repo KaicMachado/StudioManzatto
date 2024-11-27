@@ -9,7 +9,7 @@ const Informacoes = () => {
     <div className={styles.infoContent}>
      <p className={styles.title}>Redes Sociais</p>
      <ul className={styles.redesLista}>
-      <a href="https://api.whatsapp.com/send?phone=+5516992332187&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+de+unha+com+a+Andreia">
+      <a href="https://api.whatsapp.com/send?phone=+5527988432497&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio">
        <li>
         <img className={styles.logo} src={WhatsappLogo} alt="Logo Whatsapp" />
        </li>

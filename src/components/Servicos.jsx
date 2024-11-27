@@ -14,7 +14,7 @@ const Servicos = () => {
 
    <button className={styles.btn}>
     <a
-     href="https://api.whatsapp.com/send?phone=+5516992332187&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio+de+unha+com+a+Andreia"
+     href="https://api.whatsapp.com/send?phone=+5527988432497&text=Ol%C3%A1%2C+gostaria+de+agendar+um+hor%C3%A1rio"
      target="_blank"
     >
      Agendar
